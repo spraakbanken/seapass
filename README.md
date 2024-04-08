@@ -1,5 +1,5 @@
-# SEAPASS 
-Synthetic-Error Augmented PArsing of Swedish as a Second language
+# SEAPaSS 
+Data and code for the paper "Synthetic-Error Augmented PArsing of Swedish as a Second language" (Arianna Masciolini, Emilie Marie Carreau Francis, Maria Irena Szawerna)
 
 ## Data
 - [SweLL-derived evaluation set](data/swell/), obtained by:
@@ -18,3 +18,6 @@ Synthetic-Error Augmented PArsing of Swedish as a Second language
 
 ## MaChAmp configurations
 The [machamp_configs](machamp_configs/) folder contains configurations for running the fine-tuning experiments with the [MaChAmp toolkit](https://machamp-nlp.github.io/). 
+
+## License
+This code is released under the [CRAPL academic-strength open source license](https://matt.might.net/articles/crapl/).
