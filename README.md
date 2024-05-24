@@ -4,7 +4,7 @@ Data and code for the paper "Synthetic-Error Augmented PArsing of Swedish as a S
 ## Data
 - [SweLL-derived evaluation set](data/swell/), obtained by:
   1. extracting sentence-correction pairs from the full [SweLL-gold corpus](https://spraakbanken.gu.se/resurser/swell-gold) with the [extract_sentence_pairs.py script](swell_scripts/extract_sentence_pairs.py)
-  2. filtering out sentences that do not exclusively contain word order errors with the [filter_and_split.py](swell_scripts/filter_and_split.py) (TODO: remove the splitting etc.)
+  2. filtering out sentences that do not exclusively contain word order errors with the [filter_and_split.py](swell_scripts/filter_and_split.py)
   3. parsing the resulting corrected sentences with the `swedish-talbanken-ud-2.12-230717` UDPipe 2 model
   4. applying the [transfer_annotation.py script](swell_scripts/transfer_annotation.py) to transfer UD annotation from correction hypotheses to learner originals
 - [corrupted version of the Talbanken Swedish treebank](data/corrupted_talbanken/), obtained by processing [UD_Swedish-Talbanken](https://github.com/UniversalDependencies/UD_Swedish-Talbanken) with the [corrupt.py script](preproc_scripts/corrupt.py)
