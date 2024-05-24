@@ -1,5 +1,5 @@
 # SEAPaSS 
-Data and code for the paper "Synthetic-Error Augmented PArsing of Swedish as a Second language" (Arianna Masciolini, Emilie Marie Carreau Francis, Maria Irena Szawerna)
+Data and code for the paper [_Synthetic-Error Augmented PArsing of Swedish as a Second language_](https://aclanthology.org/2024.mwe-1.7/) by Arianna Masciolini, Emilie Marie Carreau Francis, Maria Irena Szawerna
 
 ## Data and preprocessing scripts
 - [SweLL-derived evaluation set](data/swell/), obtained by:
